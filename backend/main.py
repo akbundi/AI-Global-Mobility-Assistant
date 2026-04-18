@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from api import visa, chat
+from backend.api import visa, chat
 
 app = FastAPI(title="AI Global Mobility Assistant")
 
