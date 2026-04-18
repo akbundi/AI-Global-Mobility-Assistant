@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from services.azure_openai import ask_mobility_ai
-from services.confidence_score import calculate_confidence_score
-from services.temperature_confidence import temperature_sensitivity_confidence
+from backend.services.azure_openai import ask_mobility_ai
+from backend.services.confidence_score import calculate_confidence_score
+from backend.services.temperature_confidence import temperature_sensitivity_confidence
 
 router = APIRouter()
 
