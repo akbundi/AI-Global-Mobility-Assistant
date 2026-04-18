@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from services.azure_openai import ask_mobility_ai
+from backend.services.azure_openai import ask_mobility_ai
 
 router = APIRouter()
 
