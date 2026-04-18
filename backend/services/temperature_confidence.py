@@ -1,4 +1,4 @@
-from services.azure_openai import ask_mobility_ai
+from backend.services.azure_openai import ask_mobility_ai
 from difflib import SequenceMatcher
 
 
