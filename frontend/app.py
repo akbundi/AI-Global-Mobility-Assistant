@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "http://127.0.0.1:8007"
+BACKEND_URL = "https://ai-global-mobility-assistant.onrender.com"
 
 st.set_page_config(
     page_title="AI Global Mobility Assistant",
